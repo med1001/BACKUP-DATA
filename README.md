@@ -1,10 +1,41 @@
-# BACKUP-DATA
+# VOLTIFY
 
-An application to back up your databases
+VOLTIFY is an Electron application designed to simplify the process of backing up and restoring your databases. It offers advanced scheduling, backup management, and notifications to ensure the safety and availability of your data.
 
-You can choose the period of backup.By default a backup is made once a week.
-the application perform incremental back up every day. and you can change the period.
+---
 
-I will try to make an Electron app to do the work.
+## Key Features
 
-any help will be appreciated.
+### **Backup Scheduling**
+- Choose between backup intervals:
+  - **Weekly** (default).
+  - **Daily**.
+  - **Custom interval**.
+
+### **Backup Types**
+- **Full backup**: A complete copy of the data.
+- **Incremental backup**: Only backs up recent changes.
+
+### **Database Management**
+- Display a **list of available databases**.
+- Allow users to **select databases** to back up.
+
+### **Notifications**
+- Alerts for:
+  - Successful backup completion.
+  - Backup failures.
+
+### **Restoration**
+- Restore a database from a backup file.
+
+### **Configuration**
+- Intuitive interface to **modify backup settings** (e.g., backup path, schedule).
+
+### **Logs**
+- Detailed **history of backups**, including dates, types, and results.
+
+---
+
+## Installation
+
+... to be continued.
